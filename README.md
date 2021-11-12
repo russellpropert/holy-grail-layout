@@ -4,7 +4,7 @@
 This is a three-tier application using React for the front end, Express for the server, and Redis/Docker for the database. The page displays a simple mockup of the ["holy grail"](https://en.wikipedia.org/wiki/Holy_grail_(web_design)) of web design. There are plus and minus buttons on each of the sections that increase and decrease counters kept for each of the sections. The counter data is stored in the Redis database.  
 
 ## How To Run
-You must have Docker set up on your computer.  
+You must have [Docker](https://www.docker.com/) set up on your computer.  
 
 Run these commands in the command line:  
 docker run -p 6379:6379 --name redis-for-holy-grail-app -d redis  
