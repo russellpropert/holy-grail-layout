@@ -1,7 +1,7 @@
 # Holy Grail Layout
 
 ## Description
-This is a three-tier application using React for the front end, Express for the server, and Redis/Docker for the database. The page displays a simple mockup of the "holy grail" (https://en.wikipedia.org/wiki/Holy_grail_(web_design)) of web design. There are plus and minus buttons on each of the sections that increase and decrease counters kept for each of the sections. The counter data is stored in the Redis database.
+This is a three-tier application using React for the front end, Express for the server, and Redis/Docker for the database. The page displays a simple mockup of the ["holy grail"](https://en.wikipedia.org/wiki/Holy_grail_(web_design)) of web design. There are plus and minus buttons on each of the sections that increase and decrease counters kept for each of the sections. The counter data is stored in the Redis database.
 
 ## How To Run
 You must have Docker set up on your computer.
